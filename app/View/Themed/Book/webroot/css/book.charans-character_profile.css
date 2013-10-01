@@ -1,0 +1,63 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body .characterInfo {
+  margin-top: 60px;
+}
+body .characterInfo ul li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 2px;
+  margin-bottom: 10px;
+}
+body .characterInfo ul li input {
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+body .characterInfo .btn.popover-trigger {
+  margin: 0 0 15px 15px;
+}
+body #accordion .accordion-group {
+  padding: 10px;
+  overflow: auto;
+}
+body #accordion .accordion-group .accordion-heading h2 {
+  font-size: 24px;
+  margin: 0;
+}
+body #accordion .accordion-group .accordion-heading p {
+  margin-left: 15px;
+  font-size: 12px;
+  font-style: italic;
+}
+body #accordion .accordion-group .accordion-inner textarea {
+  width: 600px;
+}
